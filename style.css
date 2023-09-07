@@ -115,7 +115,20 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   cursor: pointer;
   transition: 0.4s;
 }
-
+.card1 {
+  margin: 30px auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+.card1 img{
+  width: auto !important ;height:80px;
+  margin-top: 12px;
+  padding-left:8px;
+}
 .card .card_image {
   width: inherit;
   height: inherit;
@@ -176,7 +189,7 @@ header .logo {
 }
 
 
-@charset "utf-8";
+@charsetet "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Open Sans:400,600,800');
 h1,
 h2,
