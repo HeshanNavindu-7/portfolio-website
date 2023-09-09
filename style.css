@@ -69,9 +69,16 @@ color: #009bf9;
     box-shadow: none;
   }
 
-section{
- 
-}
+  .pro-card{
+    width: 300px;
+    height: auto;
+    border: radius 2px;
+   
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+   
+      transition: 0.4s;
+  }
 #particles-js .social{
   text-align: center;
   margin-top: 50px;
