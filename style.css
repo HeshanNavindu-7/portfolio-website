@@ -308,3 +308,15 @@ a:focus {
     transform: rotate(5deg) scale(1.1, 1.1);
     filter: brightness(110%);
 }
+.all{
+display: flex;
+
+}
+.imge img{
+  width:70px;
+  height: auto;
+}
+#skills{
+  margin-top:70px;
+
+}
