@@ -379,6 +379,10 @@ display: flex;
         
       padding: 40px; 
     }
+    #particles-js .container{
+    top: 50px;
+    text-align: center;
+    }
 }   
 .sk{
   display:flex;
@@ -390,7 +394,4 @@ display: flex;
   flex: 0 0 calc(20% - 10px); /* Adjust the width as needed for your design */
   margin: 10px;
   text-align: center;
-}
-.content-section-padded {
-  padding-top: 150px; /* Adjust the padding value as needed */
 }
