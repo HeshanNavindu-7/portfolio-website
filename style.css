@@ -54,7 +54,12 @@ color: #009bf9;
 
 }
 
-
+.see{
+  display: flex;
+   justify-content:space-evenly;
+   flex-wrap: wrap;
+  padding: 40px; 
+}
   .navbar-brand h1{
     position: relative;
     color: var(--textcolor);
@@ -69,9 +74,16 @@ color: #009bf9;
     box-shadow: none;
   }
 
-section{
- 
-}
+  .pro-card{
+    width: 300px;
+    height: auto;
+    border: radius 2px;
+   
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+   
+      transition: 0.4s;
+  }
 #particles-js .social{
   text-align: center;
   margin-top: 50px;
@@ -100,9 +112,10 @@ text-align: center;
 bottom: 90px;
 left: 100px;
 }
-#about .container .row{
-  position:absolute;
-  top: 680px;text-align: center;
+#about .container1 .row{
+  
+  top:280px;
+  text-align: center;
 
 }
 
@@ -115,7 +128,20 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   cursor: pointer;
   transition: 0.4s;
 }
-
+.card1 {
+  margin: 30px auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+.card1 img{
+  width: auto !important ;height:80px;
+  margin-top: 12px;
+  padding-left:8px;
+}
 .card .card_image {
   width: inherit;
   height: inherit;
@@ -176,7 +202,7 @@ header .logo {
 }
 
 
-@charset "utf-8";
+@charsetet "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Open Sans:400,600,800');
 h1,
 h2,
@@ -287,4 +313,85 @@ a:focus {
 .profile-card-4:hover img {
     transform: rotate(5deg) scale(1.1, 1.1);
     filter: brightness(110%);
+}
+.all{
+display: flex;
+
+}
+.imge img{
+  width:70px;
+  height: auto;
+}
+#skills{
+  margin-top:70px;
+
+}
+.container1{
+ 
+  position: relative;
+  top: -50px;
+  }
+@media screen and (max-width:600px){
+  #hero{
+    
+    height:auto !important ;
+    width: 350px;
+    text-align: center;
+  }
+  .social{
+    padding: 10px;
+  }
+  .social a{
+    padding: 14px;
+  }
+  .social {
+    padding: 14px;
+  }
+  .container{
+ 
+    left: 0px;
+    }
+    #about{
+     
+      bottom: 10px;
+      padding-top: 150px;
+    }
+    #about .container1{
+     
+      left: 0px;
+
+      }
+  
+      .container1 .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .see{
+        
+         justify-content:center;
+        
+        padding: 40px; 
+      }
+    #skills .sk{
+      
+      justify-content:center;
+        
+      padding: 40px; 
+    }
+    #particles-js .container{
+    top: 50px;
+    text-align: center;
+    }
+}   
+.sk{
+  display:flex;
+  justify-content: space-around;
+
+}
+.card1 {
+  width: fit-content;
+  flex: 0 0 calc(20% - 10px); /* Adjust the width as needed for your design */
+  margin: 10px;
+  text-align: center;
 }
